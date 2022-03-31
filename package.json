@@ -1,0 +1,22 @@
+{
+  "name": "my_readme_generator",
+  "version": "1.0.0",
+  "description": "README_generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeenaSmith/my_README_generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeenaSmith/my_README_generator/issues"
+  },
+  "homepage": "https://github.com/DeenaSmith/my_README_generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
