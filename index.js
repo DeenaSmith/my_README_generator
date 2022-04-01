@@ -11,3 +11,24 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+
+
+
+
+const readmeDataArgs = process.argv.slice(2, process.argv.length);
+console.log(readmeDataArgs);
+
+
+
+const printReadmeData = readmeDataArgs => {
+    for (let i = 0; i < readmeDataArgs.length; i += 1) {
+        console.log(readmeDataArgs[i]);
+    }
+
+    console.log('==========');
+
+    readmeDataArgs.forEach(readmeItem => console.log(readmeItem))
+    };
+;
+
