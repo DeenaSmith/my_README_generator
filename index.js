@@ -1,7 +1,7 @@
 
 // TODO: Include packages needed for this application
 const fs = require("fs");
-//const writeToFile = require('./utils/generate.Markdown')
+const fileUtils = require('./utils/generate.Markdown')
 
 
 // TODO: Create an array of questions for user input
@@ -13,7 +13,9 @@ const questions = [];
 const readmeDataArgs = process.argv.slice(2, process.argv.length);
 const [name, project] = readmeDataArgs;
 
- 
+fileUtils.generateMarkdown( {
+    name, project
+})
        //HTML template for output
        const writeToFile = (userName, projectTitle) => {
         return `
