@@ -16,22 +16,33 @@ function generateMarkdown(data) {
 
 # ${data.title}
 https://github.com/${data.username}/${data.title}
-# Description
+## Description
 ${data.description}
-# Table of Contents
+## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contribution)
 * [Tests](#testing)
+* [Questions](#questions)
 
-# Installation
-These dependencies are required to run this application: 
-# Usage
+
+## Installation
+These dependencies are required to run this application: ${data.installation}
+
+## Usage
 To use this app, ${data.usage}
-# Contribution
+
+## Contribution
 The contributing guidelines are ${data.contribution}
-# Tests
+
+## Tests
 To test this app, ${data.testing}
+
+## License
+${data.license}
+
+## Questions
+My Github username is ${data.username} and my email address is ${data.email}
 `;
 };
 
