@@ -19,7 +19,31 @@ function renderLicense(license) {
     if(license === 'NA') {
         return `NA`
     }
- }
+ };
+
+
+
+
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) { 
+    if(license === 'Apache') {
+        return `![License: Apache](https://opensource.org/licenses/Apache-2.0)`
+    }
+    if(license === 'MIT') {
+        return `![License: MIT](https://opensource.org/licenses/MIT)` 
+    }
+    if(license === 'Mozilla') {
+        return `![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
+    }
+    if(license === 'ISC') {
+        return `![License: ISC](https://opensource.org/licenses/ISC)`
+    }
+
+    if(license === 'NA') {
+        return `NA`
+    }
+ };
 
 
 
@@ -29,7 +53,7 @@ function generateMarkdown(data) {
 
 # ${data.title}
 
-## License ${renderLicense(data.license)}
+${renderLicense(data.license)}
 
 https://github.com/${data.username}/${data.title}
 
@@ -57,7 +81,7 @@ The contributing guidelines are ${data.contribution}
 To test this app, ${data.testing}
 
 ## License
-${data.license}
+${renderLicenseLink(data.license)}
 
 ## Questions
 My Github username is ${data.username} and my email address is ${data.email}

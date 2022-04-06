@@ -1,13 +1,13 @@
 
 
-# my_README_generator
+# ReadMe-Generator
 
-## License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
-https://github.com/DeenaSmith/my_README_generator
+https://github.com/wgww/ReadMe-Generator
 
 ## Description
-Generates a README based on user input.
+wrGwrg
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,19 +18,19 @@ Generates a README based on user input.
 
 
 ## Installation
-These dependencies are required to run this application: Node and Inquirer must be installed.
+These dependencies are required to run this application: eqhqhh
 
 ## Usage
-To use this app, Once the intsllations are complete, type node index.js for it to run.
+To use this app, egggggggs
 
 ## Contribution
-The contributing guidelines are The application is public and there are no other contributors.
+The contributing guidelines are fnwioenwie
 
 ## Tests
-To test this app, No
+To test this app, wggweo
 
 ## License
-MIT
+![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)
 
 ## Questions
-My Github username is DeenaSmith and my email address is deenasmith1630@gmail.com
+My Github username is wgww and my email address is wrgwr
