@@ -1,9 +1,10 @@
 
 // TODO: Include packages needed for this application
 const fs = require("fs");
-//const fileUtils = require('./utils/generate.Markdown')
+// const fileUtils = require('./utils/generate.Markdown')
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generate.Markdown");
+// const renderLicense = require("./utils/generate.Markdown");
 
 
 // TODO: Create an array of questions for user input
@@ -47,7 +48,7 @@ const questions = [{
     type: 'list',
     message: "What license is your project under?",
     name: 'license',
-    choices: ['Apache', 'MIT', 'GPL', 'ISC', 'NA'],
+    choices: ['Apache', 'MIT', 'Mozilla', 'ISC', 'NA'],
     validate: (value) => { if (value){return true} else {return 'You must enter a value to proceed.'}},
   },
   {
