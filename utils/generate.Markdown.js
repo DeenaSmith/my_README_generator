@@ -69,16 +69,16 @@ ${data.description}
 
 
 ## Installation
-These dependencies are required to run this application: ${data.installation}
+${data.installation}
 
 ## Usage
-To use this app, ${data.usage}
+${data.usage}
 
 ## Contribution
-The contributing guidelines are ${data.contribution}
+${data.contribution}
 
 ## Tests
-To test this app, ${data.testing}
+${data.testing}
 
 ## License
 ${renderLicenseLink(data.license)}

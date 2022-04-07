@@ -1,13 +1,13 @@
 
 
-# tyjetyj
+# my_README_generator
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-https://github.com/eytey/tyjetyj
+https://github.com/DeenaSmith/my_README_generator
 
 ## Description
-tyjyj
+This application generates a README based on user input.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,19 +18,19 @@ tyjyj
 
 
 ## Installation
-These dependencies are required to run this application: etyeytj
+Node and Inquirer must be installed for the application to work.
 
 ## Usage
-To use this app, etyetyj
+In the terminal, run node index.js and the prompt will begin.
 
 ## Contribution
-The contributing guidelines are etyjety
+This application is public and there are currently no other contributors.
 
 ## Tests
-To test this app, etyjeyt
+It can be tested from the command line. 
 
 ## License
 [License: MIT](https://opensource.org/licenses/MIT)
 
 ## Questions
-My Github username is eytey and my email address is wwwweeeeeeeeee
+My Github username is DeenaSmith and my email address is deenasmith1630@gmail.com and a demonstration video can be found at https://youtu.be/1kYznup5jts
