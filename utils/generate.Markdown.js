@@ -28,16 +28,16 @@ function renderLicense(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) { 
     if(license === 'Apache') {
-        return `![License: Apache](https://opensource.org/licenses/Apache-2.0)`
+        return `[License: Apache](https://opensource.org/licenses/Apache-2.0)`
     }
     if(license === 'MIT') {
-        return `![License: MIT](https://opensource.org/licenses/MIT)` 
+        return `[License: MIT](https://opensource.org/licenses/MIT)` 
     }
     if(license === 'Mozilla') {
-        return `![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
+        return `[License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
     }
     if(license === 'ISC') {
-        return `![License: ISC](https://opensource.org/licenses/ISC)`
+        return `[License: ISC](https://opensource.org/licenses/ISC)`
     }
 
     if(license === 'NA') {
@@ -89,10 +89,6 @@ My Github username is ${data.username} and my email address is ${data.email}
 };
 
 
-
-// const fileUtils = {
-//     generateMarkdown, renderLicense
-// }
 
 //module.exports = renderLicense;
 module.exports = generateMarkdown
